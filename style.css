@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', serif;
+    
+    }
+.navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navbar::before{
+    content: " ";
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left:  0px;
+    z-index:-1;
+    opacity: 0.7;
+ }
+ .right-nav{
+     margin-left: 40%; }
+
+.logo{
+    margin: 10px 34px;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', serif;
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.navbar ul li a{
+    color: red;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', serif;
+}
+.navbar ul li a:hover{
+    color: rebeccapurple;
+    background-color: cyan;
+}
+/*home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: " ";
+    background:url(image/image3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    
+    top: 0px;
+    left:  0px;
+    height: 105%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.89;
+ }
+ #home h1{
+     color:rgb(13, 105, 75);
+     text-align: center;
+     font-family: 'Baloo Bhai 2', serif;
+    }
+ #home p{
+    color:rgb(13, 105, 33);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', serif;
+}
+#home pre{
+    color:rgb(13, 105, 33);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', serif;
+}
+/*services*/
+.h-primery{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.h-second{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.h-prime{
+    text-align: center;
+}
+
+  .btn1{
+    padding: 6px 20px;
+    border:  2px solid white;
+    background-color: burlywood;
+    color: red;
+    margin: 17px;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2{
+    padding: 6px 20px;
+    border:  2px solid white;
+    background-color: burlywood;
+    color:red;
+    margin: 17px;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.space{
+    height:80px;
+}
+.space1{
+    height:20px;
+}
+
+ img{
+    border: 1px solid black;
+}
+.center{
+    text-align: center;
+}
+.service{
+    margin: 34px;
+    display: flex;
+}
+.service img{
+height: 160px;
+    margin: auto;
+    display: block;
+}
+.service1 img{
+    height: 160px;
+        margin: auto;
+        display: block;
+    }
+.service1{
+    margin: 34px;
+    display: flex;
+}
+.service p{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+}
+.service1 p{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+}
+.contain{
+    margin: 5px 20px;
+}
+
+#box1{
+    margin-left: 60px;
+}
+#box2{
+    margin-left: 65px;
+}
+#box3{
+    margin-left: 70px;
+}
+#box4{
+    margin-left: 70px;
+}
+#box5{
+    margin-left: 70px;
+}
+#box6{
+    margin-left: 70px;
+}
+/*client section*/
+#clients{
+    display: flex;
+    
+}
+#clients-section{
+    height: 344px;
+}
+#clients img{
+    height: 250px;
+    margin-left: 130px;
+}
+#contact1{
+    position: relative;
+    background: rgb(228, 202, 206);
+}
+#contact1-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#contact1-box input,
+#contact1-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+#contact1-box form{
+    width: 40%;
+}
+footer{
+    background: black;
+    color: blanchedalmond;
+}
+

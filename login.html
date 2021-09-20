@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    #login{
+        position: relative;
+        background: rgb(228, 202, 206);
+    }
+    #login-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    #login-box input
+    {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+    #login-box form{
+        width: 40%;
+    }
+    </style>
+</head>
+<body>
+<section id="login">
+        <h1 class="h-primary center">
+            Login
+        </h1>
+        <div id="login-box">
+            <form action="">
+                 <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email ID">
+
+                </div>
+                <div class="form-group">
+                    <label for="password">Password </label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                </div>
+<br>
+                <a >Register</a>
+
+<br>                <button>Submit</button>
+            </form>
+        </div>
+
+    </section>
+</body>
+</html>

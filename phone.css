@@ -1,0 +1,19 @@
+/*Navigation*/
+.navbar{
+    flex-direction: column;
+}
+/* Home */
+#home{
+    height: 370 px;
+    padding: 3px 68px;
+}
+
+/*services*/
+.service{
+flex-direction: column;
+}
+
+.service1{
+    flex-direction: column;
+    }
+    
